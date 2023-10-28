@@ -1,0 +1,17 @@
+.form-style {
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.form-style > div {
+    width: 20%;
+    margin: 0 30px;
+}
+
+.form-style .transform-h4 {
+    transform: translateY(-150%);
+}

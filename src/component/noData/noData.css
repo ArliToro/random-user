@@ -1,0 +1,16 @@
+.no-data {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.no-data > div {
+    margin-top: 15px;
+}
+
+.no-data h1 {
+    margin: 0;
+}

@@ -82,14 +82,12 @@ const SecondPage: React.FC = () => {
     };
 
     const filteredData: User[] = useMemo(() => {
-        console.log("this is getting triggered")
         return filteredFc(nat, age, allData)
     }, [form, allData])
 
     const handleForm = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setForm([{age, nat}]);
-        console.log("this is e", e)
     };
 
 

@@ -53,7 +53,7 @@ const FirstPage: React.FC = () => {
     }, []);
 
     return (
-        <div>
+        <>
             <Box sx={{width: '100%',marginTop:"15px"}}>
                 <Grid container spacing={{xs: 2}} direction="row" justifyContent="center" wrap="wrap">
                     {data.length > 0 ? (
@@ -72,7 +72,7 @@ const FirstPage: React.FC = () => {
                     )}
                 </Grid>
             </Box>
-        </div>
+        </>
     )
 }
 
